@@ -10,7 +10,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://mystified131:Jackson131!@mystif
 app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
 db = SQLAlchemy(app)
 
-app.secret_key = 'noiiuglsrjbijbovubj3irg'
+app.secret_key = 'noiiugubj3irg'
 
 class APPSTotal(db.Model):
     sessiondata = db.Column(db.String(120), primary_key=True)
