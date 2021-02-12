@@ -33,7 +33,7 @@ def make_player():
 
     contentb = []
 
-    infile = open("BFF_Sounds.m3u", "r")
+    infile = open("BFFSounds.m3u", "r")
     plist = infile.readline()
     while plist:
         contentb.append(plist)
